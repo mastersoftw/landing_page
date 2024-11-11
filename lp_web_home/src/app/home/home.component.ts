@@ -15,11 +15,10 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
 
     this.items = [
-      {label: 'Home', icon: 'pi pi-fw pi-home'},
-      {label: 'Calendar', icon: 'pi pi-fw pi-calendar'},
-      {label: 'Edit', icon: 'pi pi-fw pi-pencil'},
-      {label: 'Documentation', icon: 'pi pi-fw pi-file'},
-      {label: 'Settings', icon: 'pi pi-fw pi-cog'}
+      {label: 'INICIO', icon: 'pi pi-fw pi-home'},
+      {label: 'ACERCA DE NOSOTROS', icon: 'pi pi-fw pi-calendar'},
+      {label: 'SERVICIOS', icon: 'pi pi-fw pi-pencil'},
+      {label: 'CONTACTO', icon: 'pi pi-fw pi-file'},
   ];
 
 

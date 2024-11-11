@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+}
+
+
+/* // Estilos menubar
+.p-tabmenu .p-tabmenu-nav {
+    background: #000;
+    border: 1px solid #dee2e6;
+    border-width: 0 0 2px 0;
+    justify-content: center;
+
+    .p-tabmenuitem.p-highlight .p-menuitem-link{
+        background: #ffffff;
+        border-color: #f16363;
+        color: #f16368;
+    }
+
+    .p-tabmenuitem .p-menuitem-link:not(.p-disabled):focus {
+        outline: 0 none;
+        outline-offset: 0;
+        box-shadow: inset 0 0 0 0.2rem #dd686c6d;
+    }
+
+}
+
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+    border: solid #dee2e6;
+    border-width: 0 0 2px 0;
+    //border-color: transparent transparent #e6dede transparent;
+    background: #000;
+    color: #ffffffdc;
+    padding: 1.25rem;
+    font-weight: 700;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    transition: box-shadow 0.2s;
+    margin: 0 0 -2px 0;
+}
+// Estilos menubar
+ */
