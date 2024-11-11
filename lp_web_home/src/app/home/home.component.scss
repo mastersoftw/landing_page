@@ -48,11 +48,21 @@
         rgb(30, 30, 28),
     );    
     .submision{
-        border-radius: 50px;
+        // border-radius: 50px;
         box-shadow: 12px 10px 29px -15px rgba(255,255,255,1);
-        width: 500px;
+        // width: 500px;
+        // height: 150px;
+        // border: 1px solid rgb(226, 14, 24);
+        // background-color: rgb(226, 14, 24);
+        width: 100%;
         height: 150px;
-        background-color: rgb(226, 14, 24);
+        max-width: 600px;
+        padding: 2px; /* Esto crea el borde fino */
+        background: rgba(255, 255, 255, 0.1); /* Borde semi-transparente */
+        border-radius: 16px; /* Esquinas redondeadas del borde exterior */
+        backdrop-filter: blur(5px);
+        margin: 20px auto;
+        border: 1px solid rgb(226, 14, 24)
     }
     .imgmision{
         border-radius: 125px;
@@ -60,20 +70,33 @@
         width: 250px;
         height: 250px;
         background-color: rgb(226, 14, 24);
+        border: 1px solid rgb(226, 14, 24)
     }
     .subvision{
-        border-radius: 50px;
+        // border-radius: 50px;
         box-shadow: 12px 10px 29px -15px rgba(255,255,255,1);
-        width: 500px;
+        // width: 500px;
+        // height: 150px;
+        // // background-color: rgb(226, 14, 24);
+        // border: 1px solid rgb(226, 14, 24);
+        width: 100%;
         height: 150px;
-        background-color: rgb(226, 14, 24);
+        max-width: 600px;
+        padding: 2px; /* Esto crea el borde fino */
+        background: rgba(255, 255, 255, 0.1); /* Borde semi-transparente */
+        border-radius: 16px; /* Esquinas redondeadas del borde exterior */
+        backdrop-filter: blur(5px);
+        margin: 20px auto;
+        border: 1px solid rgb(226, 14, 24)
     }
     .imgvision{
+        position: relative;
         border-radius: 125px;
         box-shadow: 12px 10px 29px -22px rgba(255,255,255,1);
         width: 250px;
         height: 250px;
         background-color: rgb(226, 14, 24);
+        border: 1px solid rgb(226, 14, 24)
     }
 }
 
@@ -166,7 +189,7 @@
   content: "";
   position: absolute;
   top: 50%;
-  width: 150px; /* Largo de las líneas */
+  width: 100px; /* Largo de las líneas */
   height: 3px;
   background-color: #ffffff; /* Color de la línea */
 }
