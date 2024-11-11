@@ -1,9 +1,7 @@
 .papa{
     display: flex;
     flex-direction: column;
-   // gap: 1px;
     background-color: rgb(255, 255, 255);
-
 
 .encabezado{
     width: 100%;
@@ -12,7 +10,6 @@
         rgb(30, 30, 28)
     );
     //background-color: #ffffff;
-    
     .icono{
         width: 194px;
         height: 93.5px;
@@ -40,20 +37,42 @@
     }
 }
 
-
 .misionVision{
     display: flex;
     width: 100%;
-    padding: 5px;
-    justify-content: space-between;
+    padding: 20px;
+    flex-direction: column;
     width: 100%;
     background: linear-gradient(
         rgba(88, 88, 87),
-        rgb(30, 30, 28)
+        rgb(30, 30, 28),
     );    
     .submision{
+        border-radius: 50px;
+        box-shadow: 12px 10px 29px -15px rgba(255,255,255,1);
         width: 500px;
-        height: 200px;
+        height: 150px;
+        background-color: rgb(226, 14, 24);
+    }
+    .imgmision{
+        border-radius: 125px;
+        box-shadow: 12px 10px 29px -22px rgba(255,255,255,1);
+        width: 250px;
+        height: 250px;
+        background-color: rgb(226, 14, 24);
+    }
+    .subvision{
+        border-radius: 50px;
+        box-shadow: 12px 10px 29px -15px rgba(255,255,255,1);
+        width: 500px;
+        height: 150px;
+        background-color: rgb(226, 14, 24);
+    }
+    .imgvision{
+        border-radius: 125px;
+        box-shadow: 12px 10px 29px -22px rgba(255,255,255,1);
+        width: 250px;
+        height: 250px;
         background-color: rgb(226, 14, 24);
     }
 }
@@ -128,3 +147,36 @@
     background-size: ;
     background-position:center;
 } */
+
+
+
+.mision-title {
+  font-size: xx-large;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding: 0 10px;
+  margin: 0; /* Ajuste para evitar separación extra */
+}
+
+.mision-title::before,
+.mision-title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 150px; /* Largo de las líneas */
+  height: 3px;
+  background-color: #ffffff; /* Color de la línea */
+}
+
+.mision-title::before {
+  right: 100%;
+  margin-right: 10px;
+}
+
+.mision-title::after {
+  left: 100%;
+  margin-left: 10px;
+}
