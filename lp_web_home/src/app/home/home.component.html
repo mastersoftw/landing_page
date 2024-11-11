@@ -23,7 +23,7 @@
         <div class="subcarrusel">CARRUSEL</div>
     </div>
 
-        
+
 <!-- AQUI VA LA MISION Y VISION -->
     <div class="misionVision">
         <div class="submision">MISION Y VISION</div>
@@ -37,7 +37,42 @@
 
 <!-- AQUI VA EL CONTACTO -->
     <div class="contacto">
-        <div class="subcontacto">CONTACTO</div>
+        <!-- <div class="subcontacto">CONTACTO</div> -->
+        <div style="height: 300px; flex: 2;">
+        <form (formGroup)="formContact">
+          <div style="background: #978383; display: flex; flex-wrap: wrap; justify-content: space-evenly">
+            <div class="nombreAndApellido" style="">
+              <div style="display: flex; flex-direction: column;">
+                <label>NOMBRE</label>
+                <input type="text" pInputText />
+              </div>
+
+              <div style="display: flex; flex-direction: column;">
+                <label>APELLIDO</label>
+                <input type="text" pInputText />
+              </div>
+            </div>
+
+            <div class="correo" style="">
+              <div style="display: flex; flex-direction: column;">
+                <label>CORREO</label>
+                <input type="text" pInputText />
+              </div>
+            </div>
+
+            <div class="comentario" style="display: flex; flex-direction: column;">
+              <label>COMENTARIO</label>
+              <textarea [rows]="5" [cols]="30" pInputTextarea></textarea>
+            </div>
+
+          </div>
+
+        </form>
+      </div>
+
+        <div class="mapa" style="background: #ccc; flex: 1;">
+
+        </div>
     </div>
 
     <footer class="footer">
