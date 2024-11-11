@@ -23,7 +23,7 @@
         <div class="subcarrusel">CARRUSEL</div>
     </div>
 
-        
+
 <!-- AQUI VA LA MISION Y VISION -->
     <div class="misionVision">
         <div style="display: flex; justify-content:center; flex-wrap: wrap;">
@@ -32,7 +32,7 @@
                     <P class="mision-title">MISION</P>
                 </div>
                 <div class="submision" style="text-align: center; display: flex; align-items: center; font-size:x-large; color: white;">
-                    Mejorar la calidad de vida de los Nortecaucanos, proporcionando soluciones de comunicación, 
+                    Mejorar la calidad de vida de los Nortecaucanos, proporcionando soluciones de comunicación,
                     entretenimiento y servicios digitales.
                 </div>
             </div>
@@ -56,7 +56,7 @@
                     <P class="mision-title">VISION</P>
                 </div>
                 <div class="subvision" style="text-align: center; display: flex; align-items: center; font-size:x-large; color: white;">
-                    Ser la empresa líder en la comercialización de soluciones fijas y móviles, apoyados en la conectividad 
+                    Ser la empresa líder en la comercialización de soluciones fijas y móviles, apoyados en la conectividad
                     y el desarrollo integral de las personas en nuestro entorno.
                 </div>
             </div>
@@ -71,8 +71,42 @@
 
 <!-- AQUI VA EL CONTACTO -->
     <div class="contacto">
-        <div class="subcontacto">CONTACTO</div>
-        
+        <!-- <div class="subcontacto">CONTACTO</div> -->
+        <div style="height: 300px; flex: 2;">
+        <form (formGroup)="formContact">
+          <div style="background: #978383; display: flex; flex-wrap: wrap; justify-content: space-evenly">
+            <div class="nombreAndApellido" style="">
+              <div style="display: flex; flex-direction: column;">
+                <label>NOMBRE</label>
+                <input type="text" pInputText />
+              </div>
+
+              <div style="display: flex; flex-direction: column;">
+                <label>APELLIDO</label>
+                <input type="text" pInputText />
+              </div>
+            </div>
+
+            <div class="correo" style="">
+              <div style="display: flex; flex-direction: column;">
+                <label>CORREO</label>
+                <input type="text" pInputText />
+              </div>
+            </div>
+
+            <div class="comentario" style="display: flex; flex-direction: column;">
+              <label>COMENTARIO</label>
+              <textarea [rows]="5" [cols]="30" pInputTextarea></textarea>
+            </div>
+
+          </div>
+
+        </form>
+      </div>
+
+        <div class="mapa" style="background: #ccc; flex: 1;">
+
+        </div>
     </div>
 
     <footer class="footer">
