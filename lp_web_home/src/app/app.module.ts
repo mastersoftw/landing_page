@@ -15,6 +15,10 @@ import { ButtonModule } from 'primeng/button';
 import { BadgeModule } from 'primeng/badge';
 import { AvatarModule } from 'primeng/avatar';
 import { AvatarGroupModule } from 'primeng/avatargroup';
+import { InputTextModule } from 'primeng/inputtext';
+import {RadioButtonModule} from 'primeng/radiobutton';
+import { CheckboxModule } from 'primeng/checkbox';
+import { InputTextareaModule } from 'primeng/inputtextarea';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,7 @@ import { AvatarGroupModule } from 'primeng/avatargroup';
     HomeComponent,
     ServiciosComponent,
     ContactoComponent,
-    
+
   ],
   imports: [
     BrowserModule,
@@ -34,7 +38,10 @@ import { AvatarGroupModule } from 'primeng/avatargroup';
     BadgeModule,
     AvatarModule,
     AvatarGroupModule,
-    
+    InputTextModule,
+    CheckboxModule,
+    InputTextareaModule,
+    RadioButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
